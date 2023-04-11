@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Login and Sign Up!!</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login-or-Sign Up</title>
+	<link href="login.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Girassol|Kulim+Park|Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="form">
+	<div class="tabs">
+		<div class ="tab-selection">
+			<div id="butn"></div>
+			<button type="button" onclick="login()" class="toggle-button">Login</button>
+			<button type="button" class="toggle-button"onclick="signup()">Sign Up</button>
+		</div>
+		<form id="login"class="details" action="home.html">
+			<h1>Welcome Back!</h1>
+			<input type="text" class="field"name="user id" placeholder="User ID" required>
+			<input type="text" name="pswd"class="field" placeholder="Password" required>
+			<input type="checkbox" class="checkbox" name="rmbr me"><span>Remember Me</span>
+			<button type="submit" class="sub-btn">Resume Reading</button>
+		</form>	
+		<form id="signup"class="details" action="home.html">
+			<h1>Sign Up for Free!</h1>
+			<input type="text" class="field"name="user id" placeholder="User ID" required>
+			<input type="text" class="field"name="email id" placeholder="Email ID" required>
+			<input type="text" name="pswd"class="field" placeholder="Password" required>
+			<input type="text" name="repswd"class="field" placeholder="ReEnter Password" required>
+			<input type="checkbox" class="checkbox" name="rmbr me"><span>Recieve mails from us.</span>
+			<button type="submit" class="sub-btn">Start Reading</button>
+		</form>
+	</div>
+</div> <!-- /form -->
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
